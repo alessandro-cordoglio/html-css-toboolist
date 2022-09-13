@@ -11,6 +11,7 @@
 header{
     background-color: white;
     padding: 10px 20px;
+    margin-bottom: 40px ;
 }
 
 body{
@@ -21,8 +22,43 @@ body{
 h1{
     display: inline-block;
     vertical-align: middle;
+    font-size: 40px;
 }
 
 .logo{
     vertical-align: middle;
 }
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+.c-button{
+    height: 50px;
+    padding: 15px 50px;
+    margin-bottom: 5px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+button{
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+
+}
+
+#task{
+    border: none;
+    background-color: #45ABEA;
+    color: white;
+}
+
+#section{
+    background-color: white;
+    color: lightgrey;
+    border: 2px solid lightgrey;
+}
+
