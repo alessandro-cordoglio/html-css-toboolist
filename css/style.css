@@ -1,0 +1,28 @@
+/*-----------
+    RESET
+----------- */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    padding: 10px 20px;
+}
+
+body{
+    background-color: lightgrey;
+    font-family: 'Roboto';
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo{
+    vertical-align: middle;
+}
