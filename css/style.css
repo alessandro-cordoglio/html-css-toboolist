@@ -34,7 +34,9 @@ h1{
     margin: auto;
     background-color: white;
 }
-
+ /* ------------------
+    DIV CONTAINER BOTTONI
+--------------------*/
 .c-button{
     height: 50px;
     padding: 15px 50px;
@@ -44,7 +46,7 @@ h1{
 
 button{
     cursor: pointer;
-    width: 80px;
+    width: 90px;
     height: 30px;
     border-radius: 6px;
 
@@ -56,9 +58,81 @@ button{
     color: white;
 }
 
-#section{
+#addsection{
     background-color: white;
     color: lightgrey;
     border: 2px solid lightgrey;
+    ;
+}
+/* ------------------
+    CONTAINER MAIN 
+--------------------*/
+.c-main{
+    border-radius: 0px 0px 6px 6px;
+    padding: 30px 50px;
+}
+/* ------------------
+STILE CIRCLE CROSS/CHECK
+--------------------*/
+.circle{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-top: 20px;
 }
 
+.check{
+    text-align: center;
+    color: green;
+    border-color: green;
+}
+
+.cross{
+    text-align: center;
+    color: red;
+    border-color: red;
+}
+
+h4{
+    display: inline;
+    padding-left: 8px;
+}
+
+h3{
+    margin-top: 25px;
+}
+
+/* ------------------
+    STILE DEI TAG 
+--------------------*/
+.tag{
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+/* ------------------
+    STILI COLORI TAG 
+--------------------*/
+.editorial{
+    background-color: #45ABEA;
+}
+
+.q1goals{
+    background-color: #9C72E4;
+}
+
+.recruiting{
+    background-color: #64C0A9;
+}
+
+.mobile{
+    background-color: #F29E33 ;
+}
