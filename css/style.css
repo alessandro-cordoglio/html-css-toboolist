@@ -68,8 +68,8 @@ button{
     CONTAINER MAIN 
 --------------------*/
 .c-main{
-    border-radius: 0px 0px 6px 6px;
-    padding: 30px 50px;
+    border-radius: 0px 0px 7px 7px;
+    padding: 30px 50px 50px;
 }
 /* ------------------
 STILE CIRCLE CROSS/CHECK
@@ -135,4 +135,12 @@ h3{
 
 .mobile{
     background-color: #F29E33 ;
+}
+
+.website{
+    background-color: #D863A1 ;
+}
+
+.sales{
+    background-color:  #B0C926 ;
 }
